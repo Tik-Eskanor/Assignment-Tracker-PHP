@@ -1,0 +1,148 @@
+*
+{
+    border:px solid;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+}
+html
+{
+    font-size: 90%;
+}
+.main-container
+{
+    width:50%;
+    height: 95vh;
+    margin: 10px auto;
+    box-shadow:3px 3px 10px rgba(0, 0, 0, 0.363);
+    font-family: tahoma;
+    padding: 10px;
+}
+.lister
+{
+    max-height:65vh;
+    overflow-y: scroll;
+}
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    flex-wrap: wrap;
+    background: rgba(0, 0, 128, 0.685);
+    align-items: center;
+    border:1px solid;
+}
+
+.header h3
+{
+    color:white;
+    text-align: center;
+    min-width:150px;
+    margin: 5px 0;
+    flex: 2;
+}
+.header form
+{
+    flex: 1;
+    display: flex;
+    min-width:150px;
+}
+.header .select
+{
+    padding: 3px;
+    font-size: 0.8rem;
+    width:100%;
+}
+
+.header .submit
+{
+    padding: 3px;
+    font-size: 0.85rem;
+    background: goldenrod;
+    margin: 2px;
+    color:white;
+    border-radius:5px;
+    border:none;
+}
+.ass-item
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 6px;
+    border:1px solid;
+}
+.ass-item .content
+{
+   flex:1;
+}
+.ass-item .course
+{
+   font-size: 0.9rem;
+}
+.ass-item .description
+{
+   font-size: 0.9rem;
+   padding: 1px;
+}
+
+.ass-item .delete-btn
+{
+   font-size: 1.4rem;
+   font-weight: 900;
+   color:maroon;
+   padding: 5px 13px;
+}
+
+.adder
+{
+    margin-top: 0.7rem;
+}
+
+.adder h4
+{
+    color:goldenrod;
+}
+
+.adder form
+{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.adder .input-wrapper
+{
+    flex:1;
+}
+.adder .input
+{
+    width: 100%;
+    padding: 0.4rem;
+    border:1px solid;
+    font-size: 0.8rem;
+}
+.adder .add-btn
+{
+    padding:1rem 0.9rem;
+    height: auto;
+    color: white;
+    background: rgba(0, 0, 128, 0.685);
+    border-radius: 10px;
+    margin-left:0.5rem;
+}
+
+.link-wrapper
+{
+    text-align:center;
+    margin-top: 0.5rem;
+}
+
+@media (max-width:700px)
+{
+    .main-container
+    {
+        width: 100%;
+    }
+}
